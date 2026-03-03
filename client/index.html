@@ -43,7 +43,7 @@
 
     <link rel="preload" href="styles/index.css" as="style" />
     <link rel="stylesheet" href="styles/index.css" />
-    <link rel="icon" type="image/jpg" href="img/briwillfavcon.jpg" />
+    <link rel="icon" type="image/jpg" href="img/briwilllogo.avif" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -66,11 +66,38 @@
   </head>
 
   <body>
+    <!-- <div class="promo-banner">
+      <video autoplay muted loop playsinline>
+        <source src="img/promovideo1.mp4" type="video/mp4" />
+      </video>
+    </div> -->
     <section class="main-header">
       <header>
-        <div>
-          <h1>Briwill</h1>
+        <div class="menu-toggle" id="menu">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M4 6l16 0" />
+            <path d="M4 12l16 0" />
+            <path d="M4 18l16 0" />
+          </svg>
         </div>
+
+        <a href="#" class="logo">
+          <img src="img/briwilllogo3.avif" alt="briwill logo" />
+
+          <h1>riwill</h1>
+        </a>
 
         <div class="search-bar">
           <form action="" name="search">
@@ -86,7 +113,7 @@
         </div>
 
         <div class="headeracc">
-          <a href="login.html">
+          <a href="login.html" class="icons-header">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -107,7 +134,7 @@
             <p>Account</p>
           </a>
 
-          <a href="wishlist.html">
+          <a href="wishlist.html" class="icons-header">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -129,7 +156,7 @@
             <p>Wishlist</p>
           </a>
 
-          <a href="cart.html">
+          <a href="cart.html" class="icons-header">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -159,6 +186,212 @@
       </div>
     </section>
     <section class="hero"></section>
+
+    <!-- FOOTER SECTION STARTS HERE -->
+    <footer>
+      <div class="back-to-top"><p>Back To Top</p></div>
+
+      <div class="footer-container">
+        <div class="footer-first-column">
+          <div class="footerlogo">
+            <img src="img/briwilllogo.avif" alt="" />
+            <h1>Briwill</h1>
+          </div>
+          <p>
+            Nigerias most trusted online marketplace. Shop smart, shop smart,
+            shop Briwill.
+          </p>
+          <div class="socials">
+            <a href="https://www.facebook.com/briwill" target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#cbd5e1"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="socials-icon"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+                />
+              </svg>
+            </a>
+            <a href="https://www.twitter.com/briwill" target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#cbd5e1"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="socials-icon"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013l0 .001"
+                /></svg
+            ></a>
+
+            <a href="https://www.instagram.com/briwill" target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#cbd5e1"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="socials-icon"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4l0 -8"
+                />
+                <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                <path d="M16.5 7.5v.01" />
+              </svg>
+            </a>
+
+            <a href="https://www.tiktok.com/company/briwill" target="_blank">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="22"
+                height="22"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#cbd5e1"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="socials-icon"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="quick-links">
+          <h3>Quick Links</h3>
+          <a href="about.html"><p>About Us</p></a>
+          <a href="contact.html"><p>Contact Us</p></a>
+          <a href="terms.html"><p>Careers</p></a>
+          <a href="privacy.html"><p>Press & Media</p></a>
+          <a href="sell.html"><p>Sell on Briwill</p></a>
+        </div>
+
+        <div class="customer-service">
+          <h3>Customer Service</h3>
+          <a href="help.html"> <p>Help Center</p></a>
+          <a href="track.html"><p>Track Order</p></a>
+          <a href="returns.html"> <p>Returns & Refunds</p></a>
+          <a href="shipping.html"> <p>Shipping Info</p></a>
+          <a href="payment.html"> <p>Payment Methods</p></a>
+        </div>
+
+        <div class="contact-us">
+          <h3>Contact Us</h3>
+          <div class="contact-us-element">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#ff6b35
+"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="socials-icon"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"
+                />
+              </svg>
+            </div>
+            <div>
+              <p>+234 123 4567 891</p>
+              <p>+234 123 4567 891</p>
+            </div>
+          </div>
+
+          <div class="contact-us-element">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#ff6b35
+"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="socials-icon"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10"
+              />
+              <path d="M3 7l9 6l9 -6" />
+            </svg>
+
+            <a href="mailto:support@briwill.co"><p>support@briwill.co</p></a>
+          </div>
+
+          <div class="contact-us-element">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#ff6b35"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="socials-icon"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+              <path
+                d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0"
+              />
+            </svg>
+            <p>imo, Nigeria</p>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+      <div class="footer-last-column">
+        <p>&copy; 2027 Briwill. All rights reserved.</p>
+
+        <div class="footer-last-column-links">
+          <a href="https://www.briwill.co/terms"><p>Terms of Service</p></a>
+          <a href="https://www.briwill.co/privacy"><p>Privacy Policy</p></a>
+          <a href="">
+            <p>Cookie Policy</p>
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 
   <script src="script/index.js"></script>
